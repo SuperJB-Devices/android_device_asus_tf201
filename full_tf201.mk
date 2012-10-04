@@ -21,11 +21,11 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     	Camera
 
-# Inherit from device
-$(call inherit-product, device/asus/tf201/device_tf201.mk)
-
 # Inherit full-base
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
+
+# Inherit from toro device
+$(call inherit-product, device/asus/tf201/device_tf201.mk)
 
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)

@@ -21,7 +21,7 @@
 #
 
 # Basic Parameters
-touch.deviceType = touchpad
+touch.deviceType = pointer
 touch.orientationAware = 1
 touch.gestureMode = pointer
 device.external = 1

@@ -1,0 +1,13 @@
+[
+ {
+   "repository": "SuperJB-Kernel/android_kernel_asus_tf201",
+   "target_path": "kernel/asus/tf201",
+   "branch": "10.4.2.15-nvtegra"
+ },
+ {
+   "repository": "SuperJB-Vendor/android_vendor_asus_tf201",
+   "target_path": "vendor/asus/tf201",
+   "branch": "jellybean"
+ }
+]
+
