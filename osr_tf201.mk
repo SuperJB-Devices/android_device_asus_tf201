@@ -16,3 +16,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=EeePad BUILD_FINGERPRINT=asus/US_ep
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := tf201
+
+# Add Google apps
+$(call inherit-product, vendor/google/full.mk)
